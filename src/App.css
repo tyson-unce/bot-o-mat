@@ -1,0 +1,48 @@
+* {
+	font-family: 'Poppins', sans-serif;
+	font-size: large;
+}
+.mainH1 {
+	text-align: center;
+	font-size: 200%;
+}
+
+.successMsg {
+	font-size: 150%;
+	text-align: center;
+}
+
+.inputs {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.submitRobot {
+	display: grid;
+	grid-template-columns: 30% 40% 30%;
+	padding-top: 5%;
+}
+
+.robName {
+	text-align: center;
+}
+
+.robType {
+	text-align: center;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+#subRobButton {
+	background-color: #ef9273;
+	border: none;
+	color: white;
+	border-radius: 5px;
+}
+
+img {
+	width: 25px;
+	height: 25px;
+}

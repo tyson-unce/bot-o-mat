@@ -1,0 +1,61 @@
+.taskWButton {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	text-align: center;
+}
+
+.taskAndTime {
+	text-align: left;
+}
+
+.completeButton {
+	width: 165px;
+	height: 50px;
+	background-color: #ef9273;
+	color: white;
+	border: none;
+	border-radius: 10px;
+}
+
+.taskList {
+	margin-left: 25%;
+	margin-right: 25%;
+	padding-top: 2%;
+	border-style: solid;
+	border-color: black;
+	background-color: #fef9f8;
+	padding-left: 2%;
+}
+
+.completeMsg {
+	padding-left: 3%;
+}
+
+#toDoMsg {
+	font-size: xx-large;
+	padding-bottom: 1%;
+}
+
+.taskAndTime p {
+	text-decoration: underline;
+}
+
+.completedHeading {
+	padding-top: 5%;
+	font-size: xx-large;
+	text-align: center;
+}
+
+.completed {
+	font-size: x-large;
+	text-align: center;
+}
+
+.completedBox {
+	border-style: solid;
+	border-color: black;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
